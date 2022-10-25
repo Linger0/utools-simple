@@ -1,0 +1,30 @@
+{
+    "preload": "preload.js",
+    "logo": "logo.png",
+    "platform": ["win32", "darwin", "linux"],
+    "features": [
+      {
+        "code": "选中查词",
+        "explain": "复制选中内容并翻译",
+        "platform": ["win32", "darwin", "linux"],
+        "cmds": [
+          {
+            "type": "over",
+            "label": "沙拉查词",
+            "minLength": 1
+          }
+        ]
+      },
+      {
+        "code": "输入查词",
+        "explain": "打开沙拉查词翻译",
+        "platform": ["win32", "darwin", "linux"],
+        "cmds" :[
+          "查词",
+          "saladict",
+          "翻译",
+          "translate"
+        ]
+      }
+    ]
+  }
