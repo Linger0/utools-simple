@@ -10,7 +10,7 @@
         "cmds": [
           {
             "type": "over",
-            "label": "沙拉查词",
+            "label": "翻译",
             "minLength": 1
           }
         ]
@@ -20,10 +20,10 @@
         "explain": "打开沙拉查词翻译",
         "platform": ["win32", "darwin", "linux"],
         "cmds" :[
-          "查词",
-          "saladict",
           "翻译",
-          "translate"
+          "translate",
+          "沙拉查词",
+          "saladict"
         ]
       }
     ]
